@@ -1,7 +1,7 @@
-package com.test.meteor.framework.model;
+package com.order.meteor.framework.model;
 
 
-import com.test.meteor.framework.constant.ResultMsg;
+import com.order.meteor.framework.constant.ResultMsg;
 
 public class ResponseBody<T> extends Response {
 

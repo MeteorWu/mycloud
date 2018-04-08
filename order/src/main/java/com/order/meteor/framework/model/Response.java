@@ -1,8 +1,8 @@
-package com.test.meteor.framework.model;
+package com.order.meteor.framework.model;
 
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.test.meteor.framework.constant.ResultMsg;
+import com.order.meteor.framework.constant.ResultMsg;
 
 
 @JsonPropertyOrder({"status, error, message, timestamp, path"})//排序

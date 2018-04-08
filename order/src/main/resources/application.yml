@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order
+eureka:
+  client:
+    service-url:
+    - name:defaultZone
+      value:http://localhost:8761/eureka/
+  instance:
+    ip-address: true

@@ -19,13 +19,13 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @PostMapping("/getById")
-    public User getById(@RequestBody User user) {
-        return userService.getById(user.getUserId());
+    @GetMapping("/{userId}")
+    public User getById(@PathVariable String userId) {
+        return userService.getById(userId);
     }
 
-    @GetMapping("index")
-    public String index(){
+    @GetMapping("/index")
+    public String index() {
         return "helloword";
     }
 
