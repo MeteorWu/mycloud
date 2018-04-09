@@ -1,9 +1,13 @@
-
 server:
-  port: 8081
+  port: 8050
 spring:
   application:
-    name: order
+    name: turbine
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
